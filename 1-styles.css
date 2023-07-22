@@ -62,7 +62,7 @@ main
 {
     border: 1px solid black;
     height: 1000px;
-    background-image: url("../Asset/images/headphones_hero_1.jpg");
+    background-image: url("../Asset/images/images/headphones_hero_1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -74,8 +74,8 @@ main
     flex-direction: column;
 }
 
-main section h1 {
-    color: white;
+.homepage {
+    color:white;
     font: size 70px;
     font-weight: 300;
 }
@@ -85,10 +85,31 @@ main section h1 {
     font-size: medium;
     text-align: center;
 }
-.about-us{
-    border: 1px solid red;
-    height: 2000px;
+.about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
    position: relative;
    top: -80px
+}
+
+.about-us {
+    color:black;
+    font: size 70px;
+    font-weight: 300;
+}
+
+.about-us-subtext {
+    color: black;
+    font-size: medium;
+    text-align: center;
+    margin: -1;
+}
+
+.page1 {
+    display: flex;
+    
 
 }
